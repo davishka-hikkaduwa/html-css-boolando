@@ -16,6 +16,8 @@ body {
     display: flex;
 }
 
+/* header */
+
 .header {
     justify-content: space-between;
     padding: 10px 15%;
@@ -30,4 +32,20 @@ body {
 .icons {
     justify-content: space-between;
     width: 60px;
+}
+
+/* main */
+
+.container {
+    background-color: grey;
+    padding: 40px 15%;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: bisque;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px 10px;
 }
