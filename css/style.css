@@ -162,3 +162,29 @@ body {
 .fa-solid.fa-heart.red:hover {
     opacity: 1;
 }
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 15%;
+    font-size: small;
+
+}
+
+
+.flex.footer {
+    justify-content: space-between;
+
+}
+
+.flex.footer>.flex>a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.flex.footer>.flex>.fa-brands {
+    padding-right: 6px;
+}
