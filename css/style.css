@@ -1,10 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4rem;
 }
 
 /* general */
 
 .flex {
     display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 10px 15%;
+    background-color: #FF6900;
+    color: white;
+}
+
+#logo {
+    width: 100px;
+}
+
+.icons {
+    justify-content: space-between;
+    width: 60px;
 }
