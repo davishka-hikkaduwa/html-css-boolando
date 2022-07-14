@@ -20,6 +20,10 @@ body {
     flex-direction: column;
 }
 
+.h-100 {
+    /* height: 100vh; */
+}
+
 /* header */
 
 .header {
@@ -47,6 +51,10 @@ body {
 
 /* main */
 
+main {
+    flex-grow: 1;
+}
+
 .container {
     background-color: white;
     padding: 40px 15%;
@@ -66,8 +74,6 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
-
-
 
 .brand {
     color: rgb(160, 160, 160);
@@ -91,18 +97,28 @@ body {
     color: white;
 }
 
-.discount {
+.card-img {
+    position: relative;
+}
+
+.label {
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.info-labels {
     position: absolute;
     z-index: 1;
-    bottom: 25%;
+    bottom: 10%;
+
+}
+
+.discount {
     background-color: red;
 }
 
 .sustainability {
-    position: absolute;
-    z-index: 1;
-    bottom: 25%;
-    left: 50px;
     background-color: green;
 }
 
